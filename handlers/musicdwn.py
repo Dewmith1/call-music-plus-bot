@@ -128,7 +128,7 @@ def yts(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('<b>Please Wait! Im Searching For Your Song 🔎...</b>')
+    m = message.reply('<b>Please Wait! Im CGS vc player Searching For Your Song 🔎...</b>')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()

@@ -54,7 +54,7 @@ async def startcb(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>Hi {query.message.from_user.mention} 🤖!</b>
 
-I'm Yakari 2.O version  Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
+I'm CGS Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
 
 Also I have more features! Please hit on **/help** to see them 👨‍💻!
 
@@ -73,15 +73,15 @@ Made ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚒ Create your one 📦", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                        "⚒ CGS owner 📦", url="https://telegram.me/Kmsrk"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔔  Join My Grouo", url="https://t.me/cgs_official"
                     ),
                     InlineKeyboardButton(
-                        "⚡️ Developer", url="https://t.me/supunma"
+                        "⚡️ Developer", url="https://telegram.me/IMkashyapaa"
                     )
                 ]
             ]
@@ -142,12 +142,11 @@ async def cbhowtouse(_, query: CallbackQuery):
 **Setting up:**
     1️⃣ Add **{BOT_USERNAME}** Bot and @{(await USER.get_me()).username} To Your Group! (Send /joingrp  to your group! Streamer Will Automatically join)
     2️⃣ Give Admin To **{BOT_USERNAME}** and **@{(await USER.get_me()).username}** !
-    3️⃣ Start a voice chat.[read this](https://telegra.ph/HOW-TO-USE-YAKARI-VC-PLAY-BOT-08-08) 
   
 **Using Player Commands:**
     1️⃣ **📛 Group Admin Commands 🔰 ,**
-     🏷  /play - Reply to supported url, Reply to Audio File or Send /play  with [⭕️ Supported Url List ⭕️](https://ytdl-org.github.io/youtube-dl/supportedsites.html)
-       **Example:** /play https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
+     🏷  /play - Reply to supported url, Reply to Audio File or Send /play  
+       **Example:** /play https://www.youtube.com/channel/ABCDEFGHIJKLM
         
      🏷 /nplay  - Play Song by Name. (Currenty Supported for Youtube Only)
        **Example:** /nplay lelena 
@@ -176,12 +175,12 @@ async def cbhowtouse(_, query: CallbackQuery):
 
 **⭕️ Supported Url List ⭕️ :** https://ytdl-org.github.io/youtube-dl/supportedsites.html
 
-Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💠 My commands & features 💠", url="https://t.me/SL_bot_zone/263"
+                        "💠 My Channel 💠", url="https://t.me/cgs_officials"
                     ),
                     InlineKeyboardButton(
                         "◀️ Back ◀️", callback_data="cbhelpmenu"
@@ -205,9 +204,9 @@ async def cbgetlyrics(_, query: CallbackQuery):
 **📊 Usage:**
     - Send Your Song Name with /lyrics  command.
     
-**📝 Example:** /lyrics lelena 
+**📝 Example:** /lyrics biliver 
 
-Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -238,12 +237,12 @@ async def cbytsearch(_, query: CallbackQuery):
      
 **📝 Example:**
     1️⃣ Example For Inline Search
-     - `@{BOT_USERNAME} sl geek show`
+     - `@{BOT_USERNAME} CGS official`
     
     2️⃣ Example For Search via Command
      - /ytsearch sl geek show 
      
-Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -285,7 +284,7 @@ async def cbmusicdown(_, query: CallbackQuery):
     3️⃣ Example For Deezer Audio Download,
       - /deezer unity
       
-Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -312,7 +311,7 @@ async def cbytviddown(_, query: CallbackQuery):
     
 **📝 Example:** /ytvid lelena 
 
-Made with ❤️ by **@{UPDATES_CHANNEL}**""",
+Made with ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -341,7 +340,7 @@ async def cbdelcmds(_, query: CallbackQuery):
    2️⃣  To Turn Off This,
       - Send /delcmd off command.
       
-Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -383,7 +382,7 @@ async def cbquotely(_, query: CallbackQuery):
     3️⃣ Example Quote Message with Reply,
       - /q r reply to a text message
       
-Made  ❤️ by **@{UPDATES_CHANNEL}**""",
+Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

@@ -16,7 +16,7 @@ def is_that_owner(func):
     
     return ownermelol
 
-OWNER_TEXT = "**Hello My Master 😇!** Please select option from below buttons \n\n ~ @sl_bot_zone"
+OWNER_TEXT = "**Hello My Master 😇!** Please select option from below buttons \n\n ~ @cgs_official"
 
 OWNER_HELPCB=InlineKeyboardMarkup(
             [
@@ -175,7 +175,7 @@ async def cbbroadcast(_, query: CallbackQuery):
      - Reply to a Text message with /chatcast command to Broadcast it using Streamer Account as a copy of that Message.
 
 
-Made with ❤️ by **@sl_bot_zone**""",
+Made with ❤️ by **@cgs_official**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -222,7 +222,7 @@ async def cbherokufuncs(_, query: CallbackQuery):
        This will delete variable named  `THUMB_URL`
 
 
-Made  ❤️ by **@sl_bot_zone**""",
+Made  ❤️ by **@cgs_official**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

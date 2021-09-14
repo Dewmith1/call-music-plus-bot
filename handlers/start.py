@@ -28,7 +28,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>Hello {message.from_user.mention} 🤖 !</b>
         
-<b>I'm  Yakari 2.O version  Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇! </b>
+<b>I'm  CGS Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇! </b>
 
 <b>Also I have more features! Please hit on **/help** to see them 👨‍💻 !</b>
 
@@ -50,10 +50,10 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔔  contact me", url=f"https://t.me/IMkashyapaa"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support Group ", url="https://t.me/slbotzone"
+                        "💬 Support Group ", url="https://t.me/cgs_official"
                     )
                 ]
             ]
@@ -136,8 +136,8 @@ Special Thanks 💝 For all of first code owners 😍</b> !
 ✅ Credits To,
 
 <b>1️⃣ <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA">sl geek show youtube </a></b> -  (❤️) !
-<b>2️⃣ Left-TG |『 刀乇ﾒﾑ 乃のｲ丂 』</b> - (First code owner ❤️)
-<b>3️⃣ N.M.Dinura Uthsara Nikalansuriya</b> - ( Heroku supporter👨‍💻)
+<b>2️⃣ Left-TG |『 CGS official 』</b> - (First code owner ❤️)
+<b>3️⃣ Sadew rukshan</b> - ( Heroku supporter👨‍💻)
 <b>4️⃣ AbirHasan2005</b>
 <b>5️⃣ DevsExpo</b>
 <b>6️⃣ TeamDaisyX</b>
@@ -148,12 +148,12 @@ Made  ❤️ by **@{UPDATES_CHANNEL}**""",
             [
                 [
                     InlineKeyboardButton(
-                        "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔔  contact me", url=f"https://t.me/IMkashyapaa"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/slbotzone"
+                        "💬 Support Group", url="https://t.me/cgs_official"
                     )
                 ]
             ]
@@ -195,10 +195,10 @@ Enjoy ❤️!""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔔  contact me ", url=f"https://t.me/IMkashyapaa"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/slbotzone"
+                        "💬 Support Group", url="https://t.me/cgs_official"
                     )
                 ]
             ]

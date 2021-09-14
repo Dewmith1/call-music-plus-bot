@@ -88,7 +88,7 @@ async def cbbans(_, query: CallbackQuery):
 
  ⭕️  This will ban user with \nUser ID: 1234567891 \nFor: 2 Days \nReason will be: `Test`
 
-Made  ❤️ by **@sl_bot_zone**""",
+Made  ❤️ by **@IMkashyapaa**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -118,7 +118,7 @@ async def cbunbans(_, query: CallbackQuery):
 
  ⭕️  This will unban user with User ID: `1234567891`
 
-Made  ❤️ by **@sl_bot_zone**""",
+Made  ❤️ by **@IMkashyapaa**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -143,7 +143,7 @@ async def cbuserstats(_, query: CallbackQuery):
    ⭕️  Send  /stats command in Bot PM
 
 
-Made  ❤️ by **@sl_bot_zone*""",
+Made  ❤️ by **@IMkashyapaa*""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [

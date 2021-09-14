@@ -173,7 +173,7 @@ async def cbhowtouse(_, query: CallbackQuery):
      🏷  /vc - To Get and Share Voice Chat Link. (Public Groups Only)
 
 
-**⭕️ Supported Url List ⭕️ :** https://ytdl-org.github.io/youtube-dl/supportedsites.html
+**⭕️ Supported Url List ⭕️ :** https://t.me/cgs_officials
 
 Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
@@ -240,7 +240,7 @@ async def cbytsearch(_, query: CallbackQuery):
      - `@{BOT_USERNAME} CGS official`
     
     2️⃣ Example For Search via Command
-     - /ytsearch sl geek show 
+     - /ytsearch sylon geek show 
      
 Made  ❤️ by **{@IMkashyapaa}**""",
         reply_markup=InlineKeyboardMarkup(
